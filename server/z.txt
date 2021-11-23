@@ -1,0 +1,13 @@
+php artisan migrate
+php artisan migrate:rollback
+php artisan db:seed --class=CampaignSeeder
+php artisan make:seeder CampaignSeeder
+php artisan make:model Campaign -m (with migration)
+php artisan serve
+php artisan make:resource CampaignResource
+php artisan storage:link
+
+step 1 connect to the db
+step 2 intall project dependencies
+step 3 seed database
+step 4 test the app
